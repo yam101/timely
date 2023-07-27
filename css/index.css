@@ -1,0 +1,127 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(180deg, #fff2e5 0%, #f3e6ff 100%);
+}
+.circle-1{
+    border-radius: 50%;
+    background-color: #FFE6DC;
+    position: relative;
+    float: left;
+
+    height: 400px;
+    width: 400px;
+    filter: blur(90px);
+    transform: translate(-70px, -120px);
+    z-index: 0;
+}
+.circle-2{
+    border-radius: 50%;
+    background-color: #f8efff;
+    position: relative;
+    float: right;
+
+    height: 700px;
+    width: 700px;
+    filter: blur(100px);
+    z-index: 0;
+}
+.title-container{
+    display: flex;
+    transform: translateX(-10px);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 40%;
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column; 
+
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0 4px 30px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.about-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 550px;
+    min-width: 550px;
+    height: 50%;
+    z-index: 2;
+
+    display: block;
+
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0 4px 30px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.logo{
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    margin-top: 15px;
+}
+a, .container button{
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 130px;
+    transform: translateY(-10px);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background: rgba(129, 111, 189, 0.7);
+    border: 1px solid rgba(129, 111, 189, 0.7);
+    box-shadow: 0 4px 30px 0 rgba( 31, 38, 135, 0.2 );
+}
+a:hover, button:hover{
+    cursor: pointer;
+    background: none;
+    color: rgb(101, 81, 164);
+}
+.hidden{
+    display: none;
+}
+.back-btn{
+    background: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 8px;
+    color: white;
+    background: rgba(129, 111, 189, 0.7);
+    border: 1px solid rgba(129, 111, 189, 0.7);
+    box-shadow: 0 4px 30px 0 rgba( 31, 38, 135, 0.2 );
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+p{
+    position: relative;
+    margin: 30px;
+}

@@ -1,0 +1,217 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-1{
+    border-radius: 50%;
+    background-color: #FFE6DC;
+    position: relative;
+    float: left;
+
+    height: 400px;
+    width: 400px;
+    filter: blur(80px);
+    transform: translate(-70px, -120px);
+    z-index: 0;
+}
+.circle-2{
+    border-radius: 50%;
+    background-color: #f8efff;
+    position: relative;
+    float: right;
+
+    height: 700px;
+    width: 700px;
+    filter: blur(80px);
+    z-index: 0;
+}
+.container{
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 30px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    position: absolute;
+    overflow: hidden;
+    width: 500px;
+    max-width: 100%;
+    min-height: 650px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    justify-content: center;
+}
+.login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.form .field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+header {
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+input,
+button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+input {
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid rgb(101, 81, 164);
+    background: rgba(255, 255, 255, 0.4);
+}
+input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color:darkgray;
+    cursor: pointer;
+    padding: 5px;
+}
+.back{
+    display: inline-block;
+    position: absolute;
+    margin: 30px;
+    transform: translateY(10px);
+    text-decoration: none;
+    z-index: 3;
+    color: rgb(226, 215, 221);
+    overflow: hidden;
+}
+.back::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(226, 215, 221);
+    opacity: 0;
+    transition: opacity 400ms, transform 400ms;
+    transform: translate3d(-100%, 0, 0);
+}
+.back:hover::after,
+.back:focus::after{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+.back:hover{
+    cursor: pointer;
+}
+#submitBtn{
+    color: white;
+    background: rgba(129, 111, 189, 0.7);
+    border: 1px solid rgba(129, 111, 189, 0.7);
+    box-shadow: 0 4px 30px 0 rgba( 31, 38, 135, 0.2 );
+    transition: all 0.3x ease;
+    cursor: pointer;
+}
+#submitBtn:hover{
+    background: none;
+    color: rgb(101, 81, 164);
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: darkgray;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(246, 243, 249);
+    padding: 0 15px;
+}
+img.microsoft-img{
+    position: absolute;
+    transform: translateX(-100px);
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+.microsoft-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CACACA;
+    background-color: transparent;
+    height: 50px;
+}
+.microsoft-btn:hover{
+    text-decoration: none;
+    background: #f3f3f3;
+    cursor: pointer;
+}
+span{
+    font-weight: 500;
+    opacity: 0.6;
+    color: black;
+}
+.swc-logo{
+    width: 100px;
+    height: 100px;
+}
+.error-msg{
+    background: rgba(242, 222, 222, 0.8);
+    color: #c57473;
+    padding: 10px;
+    border-radius: 10px;
+}
+.hidden{
+    display: none;
+}
