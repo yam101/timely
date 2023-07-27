@@ -15,7 +15,7 @@ In the future, I want to add other frameworks into my projects, such as Next.js,
 
 ## Demo 💭
 ### Login Page
-<img width="1233" alt="Screenshot 2023-07-27 at 3 04 03 PM" src="https://github.com/yam101/timely/assets/140665247/cd3a92bb-cc94-492e-861e-4a09a23d4980">
+<img width="1297" alt="Screenshot 2023-07-27 at 3 51 36 PM" src="https://github.com/yam101/timely/assets/140665247/093a46d1-a7f6-4c15-a054-2b79c7ef77cd">
 
 ### Homepage
 <img width="1261" alt="Screenshot 2023-07-27 at 3 40 03 PM" src="https://github.com/yam101/timely/assets/140665247/4ef55b60-7519-4679-8136-39eab84a5777">
