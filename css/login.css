@@ -18,10 +18,10 @@ body{
     position: relative;
     float: left;
 
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     filter: blur(80px);
-    transform: translate(-70px, -120px);
+    transform: translate(0px, -100px);
     z-index: 0;
 }
 .circle-2{
