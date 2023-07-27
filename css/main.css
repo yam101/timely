@@ -198,7 +198,7 @@ body{
     position: relative;
     float: right;
     font-size: 20px;
-    transform: translateY(-52px);
+    transform: translateY(-56px);
     border-radius: 50%;
     border: none;
     background: none;
@@ -293,7 +293,7 @@ h1{
     top: 50%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
-    z-index: 2;
+    z-index: 100;
     background: white;
 }
 .modal-lab{
