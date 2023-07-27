@@ -1,5 +1,6 @@
-# timely
+# timely ⏰
 ### 🔗 Live demo coming soon! 🌻
+
 <img width="1237" alt="Screenshot 2023-07-27 at 3 03 47 PM" src="https://github.com/yam101/timely/assets/140665247/efbdefee-969c-4ebc-8232-94adb270f30b">
 
 **Timely** is a web app primarily built to assist organizations, such as schools, schedule meeting rooms or labs in a collaborative environment. 
@@ -14,16 +15,16 @@ This project is still in development, so stay tuned for further features and upd
 In the future, I want to add other frameworks into my projects, such as Next.js, and enhance my Javascript by learning Typescript. This project might be something I revist once I learn these technologies!
 
 ## Demo 💭
-### Login Page
+### Login Page 
 <img width="1297" alt="Screenshot 2023-07-27 at 3 51 36 PM" src="https://github.com/yam101/timely/assets/140665247/093a46d1-a7f6-4c15-a054-2b79c7ef77cd">
 
-### Homepage
+### Homepage 
 <img width="1261" alt="Screenshot 2023-07-27 at 3 40 03 PM" src="https://github.com/yam101/timely/assets/140665247/4ef55b60-7519-4679-8136-39eab84a5777">
 
 ### Adding a booking
 <img width="1053" alt="Screenshot 2023-07-27 at 3 27 34 PM" src="https://github.com/yam101/timely/assets/140665247/fbae8927-aefd-417c-ab84-5b45146da923">
 
-### Importing a file
+### Importing a file 
 <img width="1115" alt="Screenshot 2023-07-27 at 3 36 12 PM" src="https://github.com/yam101/timely/assets/140665247/76a4e406-4a36-45fe-892f-d486cd2ce988">
 
 ### Adding a location
