@@ -1,6 +1,4 @@
 # timely 
-### 🔗 Live demo coming soon! 🌻
-
 <img width="1237" alt="Screenshot 2023-07-27 at 3 03 47 PM" src="https://github.com/yam101/timely/assets/140665247/efbdefee-969c-4ebc-8232-94adb270f30b">
 
 **Timely** is a web app primarily built to assist organizations, such as schools, schedule meeting rooms or labs in a collaborative environment. 
